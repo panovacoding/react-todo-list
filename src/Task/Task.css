@@ -1,0 +1,27 @@
+.task {
+    border-bottom: 1px solid gray;
+    text-align: left;
+    padding: 8px 4px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task:last-child {
+    border-bottom: none;
+}
+
+.task__controls {
+    display: flex;
+    gap: 4px;
+}
+
+.task__title {
+    cursor: pointer;
+}
+
+.task__title.completed {
+    text-decoration: line-through;
+    color: gray;
+}

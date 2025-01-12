@@ -1,0 +1,9 @@
+.task-form {
+    display: flex;
+    gap: 12px;
+}
+
+.task-form__input {
+    border-radius: 8px;
+    width: 300px;
+}
